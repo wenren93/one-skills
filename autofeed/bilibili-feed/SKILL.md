@@ -14,6 +14,7 @@ metadata:
 
 方式一：用户输入 `/bilibili-feed` 时，执行以下流程。
 方式二：用户想要了解今天所关注的up主有哪些更新时执行以下流程。
+方式三：用户输入快捷命令「bilibili」或「B站」时，自动触发 bilibili-daily-feed 任务。
 
 ## 参数
 
@@ -44,19 +45,31 @@ opencli bilibili feed -f json --type video --pages <页码>
 
 向用户展示：
 1. 数据时间范围、总视频数、活跃作者数
-2. 按条数降序参考如下结构展示（**每条必须包含可点击的B站链接**）：
+2. **按发布时间从新到旧排序**（最新的在最前面），每条必须包含可点击的B站链接：
 ```
-- **作者A，条数**
+📊 今日概览：共 N 条视频，M 位活跃作者
+
+- **作者A，1条**
 1. 发布内容A [🔗](https://www.bilibili.com/video/BVxxxxxx)
-2. 发布内容B [🔗](https://www.bilibili.com/video/BVxxxxxx)
 
-- **作者D，条数**
-1. 发布内容D [🔗](https://www.bilibili.com/video/BVxxxxxx)
+- **作者B，1条**
+1. 发布内容B [🔗](https://www.bilibili.com/video/BVxxxxxx)
 ```
 
-**重要**：输出时必须包含每条视频的URL字段，格式为 `[🔗](url)`，确保用户可以直接点击观看。如果某条视频没有url字段，跳过该条不展示。
+**重要**：
+- 输出时必须包含每条视频的URL字段，格式为 `[🔗](url)`，确保用户可以直接点击观看。如果某条视频没有url字段，跳过该条不展示。
+- **按时间倒序排列**，同一作者有多条视频时合并展示。
+- cronjob输出时**不要包含任何英文提示语或管理说明**（如"To stop or manage this job..."），只输出中文摘要内容。
 
 ## 坑点
 
 ### 用户偏好
-- 用户设置了快捷命令："bilibili" 或 "B站" → 自动触发 bilibili-daily-feed 任务
+- 快捷命令：「bilibili」或「B站」→ 触发 bilibili-daily-feed 任务（job_id: c204eabefe25）
+- **排序**：按发布时间从新到旧，不要按作者条数降序
+- **语言**：纯中文输出，不要英文管理提示语
+- **过滤**：严格模式，只保留今天（分钟前/小时前/刚刚），排除昨天和更早的
+
+### Cronjob 配置要点
+- schedule: `0 23 * * *`（每天23点）
+- deliver: `weixin:o9cq802ldrKRkITfwjh0Xg1j-WXw@im.wechat`
+- prompt 中必须强调「不要包含任何英文提示语或管理说明」
