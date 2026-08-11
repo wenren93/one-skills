@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c15b253-6b26-4d7a-81b6-53d9e81efd6a",
+  "path": "install-third-party-skills",
+  "path_key": "install-third-party-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

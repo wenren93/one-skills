@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54a9e60b-5acf-4b31-86ab-6d3da147b1ab",
+  "path": "hermes-customization",
+  "path_key": "hermes-customization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

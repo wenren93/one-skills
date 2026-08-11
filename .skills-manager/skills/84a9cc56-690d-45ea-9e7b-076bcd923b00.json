@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "84a9cc56-690d-45ea-9e7b-076bcd923b00",
+  "path": "excalidraw",
+  "path_key": "excalidraw",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

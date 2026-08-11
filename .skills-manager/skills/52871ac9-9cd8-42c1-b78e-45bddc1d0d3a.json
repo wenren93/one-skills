@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52871ac9-9cd8-42c1-b78e-45bddc1d0d3a",
+  "path": "manim-video",
+  "path_key": "manim-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

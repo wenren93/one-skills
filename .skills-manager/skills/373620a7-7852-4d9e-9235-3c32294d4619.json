@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "373620a7-7852-4d9e-9235-3c32294d4619",
+  "path": "opencli-troubleshooting",
+  "path_key": "opencli-troubleshooting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

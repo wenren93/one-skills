@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "56885cd9-4d6d-4a60-9d61-133969c42858",
+  "path": "documents",
+  "path_key": "documents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b76f88f0-7404-4090-966d-d798377a2ac2",
+  "path": "debugging",
+  "path_key": "debugging",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux.do 关键字标题帖子"
+  short_description: "查找 Linux.do 中标题包含指定关键字（默认'凡人'）的帖子"
+  default_prompt: "Use $linuxdo-keyword-posts to find Linux.do posts whose title contains the keyword (default '凡人') and return their titles, links, and activity times."

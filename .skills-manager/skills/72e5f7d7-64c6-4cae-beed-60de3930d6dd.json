@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "72e5f7d7-64c6-4cae-beed-60de3930d6dd",
+  "path": "buddy-checkin",
+  "path_key": "buddy-checkin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

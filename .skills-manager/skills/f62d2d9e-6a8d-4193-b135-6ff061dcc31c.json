@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f62d2d9e-6a8d-4193-b135-6ff061dcc31c",
+  "path": "safe-personal-dir-deletion",
+  "path_key": "safe-personal-dir-deletion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

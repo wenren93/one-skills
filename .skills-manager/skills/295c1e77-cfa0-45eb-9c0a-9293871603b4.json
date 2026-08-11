@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "295c1e77-cfa0-45eb-9c0a-9293871603b4",
+  "path": "obsidian",
+  "path_key": "obsidian",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

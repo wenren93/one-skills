@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux.do 今日 AI 帖子"
+  short_description: "查找 Linux.do 分类中今天活动的 AI 相关帖子"
+  default_prompt: "Use $linuxdo-daily-ai-posts to find today’s AI-related posts and return their titles, links, and activity times."

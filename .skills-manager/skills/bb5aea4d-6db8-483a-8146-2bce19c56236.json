@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bb5aea4d-6db8-483a-8146-2bce19c56236",
+  "path": "ocr-and-documents",
+  "path_key": "ocr-and-documents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

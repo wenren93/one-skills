@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fb933786-fddf-4fbd-a712-b356b43e82ee",
+  "path": "social-feeds",
+  "path_key": "social-feeds",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

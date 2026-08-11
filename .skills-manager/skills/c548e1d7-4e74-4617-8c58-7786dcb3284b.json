@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c548e1d7-4e74-4617-8c58-7786dcb3284b",
+  "path": "a-share-daily-review",
+  "path_key": "a-share-daily-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

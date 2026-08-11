@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "78de7f1c-af96-48f9-a169-d24955097e23",
+  "path": "edit-article",
+  "path_key": "edit-article",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

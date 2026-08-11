@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f6c339a9-40fd-4d6a-a914-20307706bc74",
+  "path": "stock-watcher",
+  "path_key": "stock-watcher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

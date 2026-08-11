@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1d2124d-2f3f-4ce5-bf38-0c0a982ac0dc",
+  "path": "linuxdo-daily-ai-posts",
+  "path_key": "linuxdo-daily-ai-posts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

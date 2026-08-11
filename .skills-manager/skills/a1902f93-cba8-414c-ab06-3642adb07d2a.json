@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1902f93-cba8-414c-ab06-3642adb07d2a",
+  "path": "popular-web-designs",
+  "path_key": "popular-web-designs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

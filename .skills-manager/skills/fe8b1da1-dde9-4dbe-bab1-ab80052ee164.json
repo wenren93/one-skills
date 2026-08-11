@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fe8b1da1-dde9-4dbe-bab1-ab80052ee164",
+  "path": "apple-ecosystem",
+  "path_key": "apple-ecosystem",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

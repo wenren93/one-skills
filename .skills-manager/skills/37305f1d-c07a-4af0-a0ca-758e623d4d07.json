@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37305f1d-c07a-4af0-a0ca-758e623d4d07",
+  "path": "location-and-environment",
+  "path_key": "location-and-environment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
