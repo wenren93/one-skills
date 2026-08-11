@@ -1,2 +1,5 @@
 .DS_Store
 /autofeed/jike-feed/scripts/__pycache__
+Thumbs.db
+*.tmp
+.skills-manager.lock

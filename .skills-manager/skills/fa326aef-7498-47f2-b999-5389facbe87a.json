@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa326aef-7498-47f2-b999-5389facbe87a",
+  "path": "autofeed/jike-feed",
+  "path_key": "autofeed/jike-feed",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

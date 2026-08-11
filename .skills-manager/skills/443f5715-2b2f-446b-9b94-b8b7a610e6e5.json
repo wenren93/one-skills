@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "443f5715-2b2f-446b-9b94-b8b7a610e6e5",
+  "path": "autofeed/bilibili-feed",
+  "path_key": "autofeed/bilibili-feed",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
