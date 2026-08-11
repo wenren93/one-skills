@@ -6,6 +6,6 @@
   "tools": {
     "claude_code": true,
     "codex": true,
-    "workbuddy": false
+    "workbuddy": true
   }
 }
